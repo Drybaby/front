@@ -6,7 +6,7 @@
 
 $blue: #4343ff;
 $red: #ff4343;
-$neutral: #e2c362;
+$neutral: #EEEEEE;
 $assassin: #000000;
 
 @import 'lobby-registration';
@@ -214,7 +214,7 @@ body[user-role="operative"] {
 	.card {
 		position: relative;
 		display: grid;
-		background: #FFE79C;
+		background: #EEEEEEC;
 		align-items: center;
 		border-radius: 4px;
 
