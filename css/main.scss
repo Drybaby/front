@@ -87,6 +87,7 @@ body[user-role="operative"] {
 	display: grid;
 	grid-template-columns: 1fr 62vw 1fr;
 	grid-template-rows: 100px 1fr 120px;
+	background-color: #3b3f3c;
 
 	.score-board { grid-column-start: 1; }
 	.clue { grid-column-start: 2; }
@@ -214,7 +215,7 @@ body[user-role="operative"] {
 	.card {
 		position: relative;
 		display: grid;
-		background: #EEEEEEC;
+		background: #EEEEEC;
 		align-items: center;
 		border-radius: 4px;
 
@@ -262,12 +263,12 @@ body[user-role="operative"] {
 			align-items: end;
 
 			span {
-				margin-bottom: 5px;
+				margin-bottom: 25%;
 				font-size: 0.8em;
-				opacity: 0.6;
+				opacity: 1;
 			}
-			&[data-agent="blue"] { background-color: $blue; }
-			&[data-agent="red"] { background-color: $red; }
+			&[data-agent="blue"] { background-color: #a5a5ff; }
+			&[data-agent="red"] { background-color: #ffa5a5; }
 			&[data-agent="black"] { background-color: $assassin; }
 			&[data-agent="neutral"] { background-color: $neutral; }
 		}
