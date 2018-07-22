@@ -3,7 +3,7 @@ function setupSocket() {
 	if(window.location.host.indexOf('localhost') > -1) //if on localhost
 		socket = new WebSocket('ws://localhost:8000');
 	else
-		socket = new WebSocket('wss://codenames-backend.herokuapp.com/');
+		socket = new WebSocket('wss://codeboisbackend.herokuapp.com');
 
 	// Connection opened
 	socket.addEventListener('open', function (event) {});
